@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,500&display=swap');
+
+
+body {
+  background: #F7F9FC;
+  text-align: center;
+  background-image: url(images/background.jpg);
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #3c25dc;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #595959;
+  margin-bottom: 50px;
+}
+
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #3c25dc;
+}
+
+ul > li a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #3c25dc;
+}
+
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+.card {
+  background: white;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  padding: 40px;
+}
+
+
+#img-circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.btn {
+  background: #3c25dc;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: #1E0359;
+}
+
+.list-inline > li {
+  display: inline-block;
+  width: 45px;
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.list-inline a {
+  height: 40px;
+  font-size: 30px;
+}
+
+.list-inline i:hover {
+  color: #1E0359;
+}
+
+
+
